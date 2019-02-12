@@ -1,0 +1,14 @@
+{
+  "name": "recipe-connection",
+  "version": "1.0.0",
+  "description": "An app to share cooking recipes",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Dominic Torruellas",
+  "license": "ISC",
+  "dependencies": {
+    "cities": "^2.0.0"
+  }
+}
