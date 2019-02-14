@@ -30,6 +30,11 @@ router.get('/index.html', (req, res) => {
   customReadFile('./views/index.html', res);
 });
 
+router.get('/about', (req, res) => {
+  res.writeHead(httpStatus.OK, htmlContentType);
+  customReadFile('./views/about.html', res);
+});
+
 router.post('/', (req, res) => {
   res.writeHead(httpStatus.OK, plainTextContentType);
   res.end('POSTED');
