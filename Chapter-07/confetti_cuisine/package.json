@@ -1,0 +1,14 @@
+{
+  "name": "confetti_cuisine",
+  "version": "1.0.0",
+  "description": "A site for booking classes for cooking.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main"
+  },
+  "author": "Dominic Torruellas",
+  "license": "ISC",
+  "dependencies": {
+    "http-status": "^1.3.1"
+  }
+}
