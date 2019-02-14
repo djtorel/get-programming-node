@@ -1,0 +1,14 @@
+{
+  "name": "second-server",
+  "version": "1.0.0",
+  "description": "Second http server",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "author": "Dominic Torruellas",
+  "license": "ISC",
+  "dependencies": {
+    "http-status": "^1.3.1"
+  }
+}
