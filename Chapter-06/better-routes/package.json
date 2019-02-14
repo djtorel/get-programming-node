@@ -1,0 +1,14 @@
+{
+  "name": "serve-html",
+  "version": "1.0.0",
+  "description": "Setup http server to serve html files",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main"
+  },
+  "author": "Dominic Torruellas",
+  "license": "ISC",
+  "dependencies": {
+    "http-status": "^1.3.1"
+  }
+}
