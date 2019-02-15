@@ -1,0 +1,14 @@
+{
+  "name": "first-express-project",
+  "version": "1.0.0",
+  "description": "First Express Project",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main"
+  },
+  "author": "Dominic Torruellas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
