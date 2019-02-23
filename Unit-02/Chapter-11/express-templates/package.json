@@ -1,0 +1,18 @@
+{
+  "name": "express-templates",
+  "version": "1.0.0",
+  "description": "Express Templates",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main"
+  },
+  "author": "Dominic Torruellas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "http-status-codes": "^1.3.0"
+  }
+}
